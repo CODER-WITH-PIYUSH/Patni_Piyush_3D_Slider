@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+.img-box{
+    width: 550px;
+    position: relative;
+}
+.pic-one{
+    width: 100%;
+}
+.pic-two{
+    width: 100px;
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+}
+.pic-three{
+    width: 75px;
+    position: absolute;
+    left: 150px;
+    bottom: 70px;
+}
+.pic-four{
+    width: 160px;
+    position: absolute;
+    right: 40px;
+    top: 110px;
+}
+.pic-five{
+    width: 110px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+.pic-six{
+    width: 160px;
+    position: absolute;
+    right: 160px;
+    bottom: 35px;
+}
+.slide-one{
+   background-color: #b0c6f5;
+}
+.carousel-item .row{
+    padding: 12% 0;
+}
+.carousel-item h1{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 50px;
+}
+.carousel-item p{
+    margin: 30px 0 50px;
+    font-size: 13px;
+    color: #fff;
+    padding-left: 50px;
+}
+.carousel-item button{
+    padding: 8px 20px;
+    background: #0c5ce3;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+}
+.slide-tow{
+    background: #f7f7f7;
+}
+.slide-tow h1,.slide-tow p{
+    color: #feb154;
+}
+.img-one{
+    width: 100%;
+}
+.img-two{
+    width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+.img-three{
+    width: 70px;
+    position: absolute;
+    right: 245px;
+    bottom: 55px;
+}
+.img-four{
+    width: 60px;
+    position: absolute;
+    right: 155px;
+    bottom: 95px;
+}
+.img-five{
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+.slide-tow button{
+    background: linear-gradient(to right,#feb154,#ffd255);
+}
+
+
+
+                         /*----css for small screen----*/
+
+@media only screen and (max-width:600px){
+    .carousel-item h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .pic-one{
+        width: 70%;
+    }
+    .pic-two{
+        width: 70px;
+        position: absolute;
+        left: 15px;
+        bottom: 20px;
+    }
+    .pic-three{
+        width: 45px;
+        position: absolute;
+        left: 125px;
+        bottom: 55px;
+    }
+    .pic-four{
+        width: 115px;
+        position: absolute;
+        right: 190px;
+        top: 70px;
+    }
+    .pic-five{
+        width: 95px;
+        position: absolute;
+        right: 160px;
+        bottom: 0px;
+    }
+    .pic-six{
+        width: 100px;
+        position: absolute;
+        right: 300px;
+        bottom: 5px;
+    }
+    .img-one{
+        width: 70%;
+    }
+    .img-two{
+        width: 150px;
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+    }
+    .img-three{
+        width: 60px;
+        position: absolute;
+        right: 325px;
+        bottom: 50px;
+    }
+    .img-four{
+        width: 50px;
+        position: absolute;
+        right: 257px;
+        bottom: 60px;
+    }
+    .img-five{
+        width: 100px;
+        position: absolute;
+        right: 150px;
+        bottom: 20px;
+    }
+}
